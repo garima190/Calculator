@@ -19,6 +19,7 @@ for (i of buttons) {
         }
         else if (bt == '=') {
             sc.value = eval(sv);
+            sv=sc.value;
         }
         else {
             sv += bt;
